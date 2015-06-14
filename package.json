@@ -1,0 +1,25 @@
+{
+  "name": "ninja-star",
+  "version": "1.0.0",
+  "description": "Ninja with glob expanding, auto-building.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "kitsuyui",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "bin": {
+    "ninjastar": "bin/ninjastar"
+  },
+  "dependencies": {
+    "async": "^1.2.1",
+    "coffee-script": "^1.9.3",
+    "fsmonitor": "^0.2.4",
+    "glob": "^5.0.10",
+    "minimatch": "^2.0.8",
+    "minimist": "^1.1.1",
+    "ninja-build-gen": "^0.1.3"
+  }
+}
