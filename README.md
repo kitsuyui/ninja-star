@@ -2,6 +2,13 @@
 
 This repository is currently work in progress.
 
+Inspired by
+
+- [martine/ninja](https://github.com/martine/ninja)
+- [jeanlauliac/ninja-build](https://github.com/jeanlauliac/ninja-build/blob/master/package.json)
+- [jeanlauliac/ninja-build-gen](https://github.com/jeanlauliac/ninja-build-gen/blob/master/package.json)
+
+
 # Installation
 
 ```ShellSession

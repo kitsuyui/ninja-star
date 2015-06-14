@@ -1,15 +1,31 @@
 {
   "name": "ninja-star",
-  "version": "0.1.0",
-  "description": "Ninja with glob expanding, auto-building.",
+  "version": "0.1.1",
+  "description": "This package is currently work in progress.\nBuild system using Ninja with feature of glob expanding, auto-building and etc...",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "prepublish": "./build.sh",
+    "test": ""
   },
+  "bugs": "https://github.com/kitsuyui/ninja-star/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitsuyui/ninja-star.git"
+  },
+  "keywords": [
+    "ninjastar",
+    "ninja-star",
+    "ninja",
+    "build",
+    "system",
+    "builder",
+    "generate",
+    "build.ninja",
+    "wip"
+  ],
   "author": "kitsuyui",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bin": {
     "ninjastar": "bin/ninjastar"
   },
@@ -20,6 +36,7 @@
     "glob": "^5.0.10",
     "minimatch": "^2.0.8",
     "minimist": "^1.1.1",
+    "ninja": "^1.1.24",
     "ninja-build-gen": "^0.1.3"
   }
 }
